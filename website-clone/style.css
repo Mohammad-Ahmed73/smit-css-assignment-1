@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Orbitron&family=Plaster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+padding: 0;
+font-family: "Poppins", sans-serif;
+}
+nav.navbar {
+    padding: 0;
+}
+.navbar .container-fluid {
+    background-color: rgb(0, 0, 0);
+}
+.navbar .container-fluid .navbar-brand #logo {
+    width: 160px;
+    height: auto;
+    margin-left: 5rem;
+}
+.navbar .container-fluid form {
+    margin-right: 5rem;
+}
+.navbar .container-fluid form button.franchise {
+color: white;
+background-color: black;
+border-radius: 40px;
+padding: 10px 15px;
+border: 1px solid white;
+font-size: 14px;
+margin-right: 15px;
+}
+
+.navbar .container-fluid form button.order {
+    color: white;
+    background-color: red;
+    border-radius: 40px;
+    padding: 15px;
+    border: none;
+    font-size: 14px;
+    }
+.navbar .container-fluid form button.order img {
+width: 20px;
+height: auto;
+}
+.navbar .container-fluid .collapse ul li a {
+color: white;
+font-size: 16px;
+}
+
+
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.otherProducts {
+    width: 100%;
+    height: max-content;
+    background-color: rgb(0, 0, 0);
+padding-block: 50px;
+}
+.otherProducts .welcomeHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    color: white;
+}
+.otherProducts .welcomeHeading p{
+color: gray;
+}
+.otherProducts .welcomeHeading h2 {
+text-align: center;
+font-size: 38px;
+font-weight: 300;
+width: 100%;
+max-width: 800px;
+}
+.otherProducts .welcomeHeading h2 span {
+    font-family: "Plaster", system-ui;
+font-size: 44px;
+}
+.otherProducts .brandSection {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.otherProducts .brandSection .brand button {
+border: 1px solid gray ;
+background-color: black;
+padding: 15px 40px;
+border-radius: 30px;
+color: white;
+}
+.otherProducts .brandSection .brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+gap: 15px;
+}
+.otherProducts .brandSection .brand .brandImage {
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+}
+.otherProducts .brandSection .brand .brandImage img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+
+.franchiseWrapper {
+    background-color: black;
+    padding-block: 50px;
+}
+.franchiseWrapper .welcomeHeading {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 30px;
+color: white;
+}
+.franchiseWrapper .welcomeHeading h2 span {
+    font-family: "Plaster", system-ui;
+    font-size: 48px;
+    font-weight: normal;
+}
+.franchiseWrapper .welcomeHeading h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 44px;
+}
+.franchiseWrapper .welcomeHeading p {
+    color: gray;
+}
+.franchiseWrapper .container .col .city {
+color: red;
+letter-spacing: 8px;
+}
+.franchiseWrapper .container .col h3 {
+    color: white;
+}
+.franchiseWrapper .container .col h3 .logoFont {
+    font-family: "Plaster", system-ui;
+letter-spacing: -2px;
+font-size: 34px;
+color: white;
+}
+.franchiseWrapper .container .col .address {
+    padding-bottom: 30px;
+}
+.franchiseWrapper .container .col .address p {
+    color: gray;
+margin: 0;
+line-height: 32px;
+}
+.franchiseWrapper .container .col button {
+    border: 1px solid gray ;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+}
+.franchiseWrapper .container .textWrapper {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.franchiseWrapper .container .imgSec img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.branchesWrapper {
+    background-color: black;
+}
+.branchesWrapper .welcomeHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    color: rgb(246, 246, 246);
+    padding-top: 40px;
+    }
+    .branchesWrapper .welcomeHeading h2 span {
+        font-family: "Plaster", system-ui;
+        font-size: 48px;
+        font-weight: normal;
+    }
+    .branchesWrapper .welcomeHeading h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-size: 44px;
+    }
+    .branchesWrapper .container .col .branchImg img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .branchesWrapper .container .col .branchInfo .cityName {
+        color: red;
+        letter-spacing: 4px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    .branchesWrapper .container .col .branchInfo .logoFont {
+        font-family: "Plaster", system-ui;
+        font-size: 22px;
+        color: white;
+    }
+    .branchesWrapper .container .col .branchInfo .address {
+font-size: 14px;
+color: rgb(160, 160, 160);
+    }
+    .branchesWrapper .container .col .branchInfo button {
+    border: 1px solid gray ;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    }
+    .branchesWrapper .container .col .branchInfo p {
+        margin: 0;
+        line-height: 35px;
+        color: white;
+    }
+    .branchesWrapper .container .row {
+        padding-bottom: 30px;
+    }
+
+    .branchesWrapper .container .lastRow .col .branchImg img {
+width: 400px;
+height: 300px;
+}
+
+.villageFranchise {
+    background-color: black;
+}
+.villageFranchise .welcomeHeading {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.villageFranchise .welcomeHeading h2 span {
+    font-family: "Plaster", system-ui;
+    font-size: 48px;
+    font-weight: normal;
+}
+.villageFranchise .welcomeHeading h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    color: white;
+}
+.villageFranchise .container .textWrapper {
+    text-align: left;
+    padding-top: 50px;
+}
+.villageFranchise .container .col .city {
+    color: red;
+    letter-spacing: 8px;
+}
+.villageFranchise .container .col h3 {
+    color: white;
+}
+.villageFranchise .container .col h3 .logoFont {
+    font-family: "Plaster", system-ui;
+    letter-spacing: -2px;
+    font-size: 34px;
+    color: white;
+}
+.villageFranchise .container .col .address {
+    padding-bottom: 30px;
+}
+.villageFranchise .container .col .address p {
+    color: rgb(187, 187, 187);
+    margin: 0;
+    line-height: 30px;
+}
+.villageFranchise .container .col button {
+    border: none;
+    background-color: #28A745;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+}
+.villageFranchise .container .villageBranch img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.moreFranchises {
+    background-color: black;
+}
+.moreFranchises .welcomeHeading {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.moreFranchises .welcomeHeading h2 span {
+    font-family: "Plaster", system-ui;
+    font-size: 48px;
+    font-weight: normal;
+}
+.moreFranchises .welcomeHeading h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    color: white;
+}
+.moreFranchises .container .box {
+    background-color: white;
+    border-radius: 5px;
+    padding-block: 15px;
+}
+.moreFranchises .container .box p {
+color: red;
+font-size: 10px;
+letter-spacing: 5px;
+text-transform: uppercase;
+margin: 0;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+.moreFranchises .container .box h3 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 21px;
+}
+.moreFranchises .container .box h3 span {
+font-weight: bold;
+}
+.moreFranchises .container .row {
+    gap: 30px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+.moreFranchises .container .lastBox {
+    background-color: white;
+    border-radius: 5px;
+    padding-block: 15px;
+    width: 100%;
+    max-width: 420px;
+}
+.food {
+    background-color: black;
+    padding-block: 40px;
+}
+.food .container .col img {
+    width: 100%;
+}
+.food .heading {
+    color: rgb(167, 167, 167);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+footer {
+    padding-block: 50px;
+    background-color: black;
+}
+footer .container .col .footerLogo {
+    width: 140px;
+    height: auto;
+    padding-bottom: 15px;
+}
+footer .container .col p {
+    text-align: left;
+    font-size: 14px;
+    color: rgb(180, 180, 180);
+}
+footer .container .col h4 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+text-align: left;
+padding-bottom: 15px;
+color: white;
+}
+footer .container .col ul li {
+list-style: none;
+text-align: left;
+color: rgb(180, 180, 180);
+
+}
+footer .container .col ul {
+padding: 0;
+}
+footer .container .col .contactNum {
+font-weight: bold;
+font-size: 18px;
+color: white;
+}
+footer .container .col img {
+display: flex;
+justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

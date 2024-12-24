@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerWrapper {
+    width: 100%;
+    max-width: 350px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    font-size: 31px;
+    font-weight: 600;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-group button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4b4b4b;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn-group button:hover {
+    background-color: #f3f3f3;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #555555;
+    border-radius: 4px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #0073b1;
+    box-shadow: 0 0 4px rgba(0, 115, 177, 0.2);
+}
+
+.form-group a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0073b1;
+    text-decoration: none;
+    display: inline;
+    margin-top: 5px;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #0A66C2;
+    color: #fff;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #005582;
+}
+
+.containerFooter {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #000;
+}
+
+.containerFooter a {
+    color: #0073b1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.containerFooter a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    font-size: 13px;
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+    font-weight: 500;
+}
